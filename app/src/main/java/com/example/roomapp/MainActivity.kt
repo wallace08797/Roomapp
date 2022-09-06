@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
         address=findViewById(R.id.et2)
       val send:Button=findViewById(R.id.button)
         val show:Button=findViewById(R.id.button2)
+        val register:Button=findViewById(R.id.button3)
+        register.setOnClickListener{
+            val intent:Intent=Intent(this,Register::class.java)
+            startActivity(intent)
+        }
 
    show.setOnClickListener{
        val intent:Intent= Intent(this,RoomData::class.java)
