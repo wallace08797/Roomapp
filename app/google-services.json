@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641328539530",
+    "project_id": "manageme-1faeb",
+    "storage_bucket": "manageme-1faeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641328539530:android:be68506cee0a86fe96ca73",
+        "android_client_info": {
+          "package_name": "com.example.roomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641328539530-02aqtfknpq008e68j8l89gu5nmtlqbuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcqXQydopa1xL7Fo_lOCYQUZRBF66OxZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641328539530-02aqtfknpq008e68j8l89gu5nmtlqbuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
