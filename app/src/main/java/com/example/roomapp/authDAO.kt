@@ -13,8 +13,12 @@ interface authDAO {
 
 
 
-    @Query("SELECT * FROM USERINFO")
-    fun getdata():List<userinfo>
+    @Query("SELECT useremail FROM USERINFO")
+    fun getuseremail():String
+
+
+    @Query("Select userpassword FROM USERINFO")
+    fun getuserpass():String
 
 
 
